@@ -1,0 +1,56 @@
+.loginHeader{
+    width: 100vw;
+    height: 8vh;
+    line-height: 8vh;
+    background-color: #2d78f4;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-bottom: #cccccc;
+    position: relative;
+}
+.loginHeader span:first-of-type{
+    position: absolute;
+    top: 50%;
+    left:20px;
+    transform: translateY(-50%);
+}
+form{
+    width: 90vw;
+    margin: 8vh  auto;
+    margin-bottom: 0;
+}
+form input{
+    height: 6vh;
+    font-family: '微软雅黑';
+}
+form .login-btn{
+    height: 6vh;
+    line-height: 6vh;
+    width: 90vw;
+    border-radius: 5px;
+    background-color: #2d78f4;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 4px;
+    border: none;
+    outline: none;
+}
+.danger{
+    color: rgb(245, 45, 45);
+    padding-left: 10px;
+    padding-top: 5px; 
+}
+.tips{
+    color: #2d78f4;
+    margin: 20px auto;
+    width: 90vw;
+}
+.tips span:first-of-type{
+    float: left;
+}
+.tips span:last-of-type{
+    float: right;
+}

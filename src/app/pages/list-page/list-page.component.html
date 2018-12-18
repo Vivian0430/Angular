@@ -1,0 +1,27 @@
+<div class="page-body">
+    <app-common-header [title]="'图书列表'"></app-common-header>
+    <div class="page-content">
+        <div class="bookList" *ngFor="let item of list">
+            <img [src]=item.image>
+            <div class="listRight">
+                <p>
+                    {{item.name}}
+                </p>
+                <p>
+                    {{item.author}}
+                </p>
+                <p>
+                    {{item.publisher.name}}
+                </p>
+                <p>
+                    {{item.category.name}}
+                </p>
+                <div class="addToCart">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    <span>加入购物车</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-nav></app-nav>

@@ -1,0 +1,53 @@
+.mine-content{
+    background-color: rgb(245,245,245);
+}
+.mine-info{
+    height: 20vh;
+    text-align: center;
+    line-height: 20vh;
+    font-size: 20px;
+    background: #ffffff;
+    margin: 20px 0;
+}
+.mine-personal{
+    background: #ffffff;
+    border-top:  1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+.mine-personal div{
+    width: 90%;
+    margin: 0 auto;
+    height: 6vh;
+    line-height: 6vh;
+    border-bottom: 1px solid #ccc;
+    color: rgb(100,100,100);
+    position: relative;
+}
+.mine-personal div:last-of-type{
+    border-bottom: none;
+}
+.mine-personal div span{
+    margin-right: 3vw;
+}
+.mine-personal div span:last-of-type{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mine-exit{
+    background: #ffffff;
+    border-top:  1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+.mine-exit div{
+    width: 90%;
+    margin: 0 auto;
+    height: 6vh;
+    line-height: 6vh;
+    border-bottom: 1px solid #ccc;
+    color: rgb(100,100,100);
+    position: relative;
+}

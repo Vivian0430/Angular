@@ -1,0 +1,55 @@
+<div class="page-body">
+    <app-common-header [title]="'个人中心'"></app-common-header>
+    <div class="page-content mine-content">
+        <div class="mine-info">hello,{{name}}</div>
+        <div class="mine-personal">
+            <div>
+                <span class="glyphicon glyphicon-user"></span>
+                <span>个人信息</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-home"></span>
+                <span>我的收货地址</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-th-list"></span>
+                <span>我的订单</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-cog"></span>
+                <span>设置</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+        </div>
+        <div class="mine-personal">
+            <div>
+                <span class="glyphicon glyphicon-question-sign"></span>
+                <span>常见问题</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-pencil"></span>
+                <span>软件反馈</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-info-sign"></span>
+                <span>关于软件</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+        </div>
+
+        <div class="mine-exit">
+            <div (click)="loginOut()">
+                <span>退出登录</span>
+            </div>
+            <div>
+                <span>注销账号</span>
+            </div>
+        </div>
+    </div>
+</div>
+<app-nav></app-nav>

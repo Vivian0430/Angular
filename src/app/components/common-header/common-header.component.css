@@ -1,0 +1,11 @@
+.common-header{
+    width: 100vw;
+    height: 8vh;
+    line-height: 8vh;
+    background-color: #2d78f4;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-bottom: #cccccc;
+}

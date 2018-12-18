@@ -1,0 +1,30 @@
+.banner{
+    width: 100vw;
+    height: 23vh;
+    font-size: 0;
+    overflow: hidden;
+}
+.banner div{
+    width: 400vw;
+    position: relative;
+    animation: bannerMove 8s linear infinite normal; 
+}
+.banner div img{
+    width: 100vw;
+    height: 23vh;
+    float: left;
+}
+@keyframes bannerMove{ 
+    0%,25%{
+        left: 0;
+    }
+    30%,50%{
+        left: -100vw; 
+    }
+    55%,75%{
+        left: -200vw; 
+    }
+    80%,100%{
+        left: -300vw; 
+    }
+}

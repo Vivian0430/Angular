@@ -1,0 +1,42 @@
+.section{
+    width: 100vw;
+}
+.bookTitle{
+    height:8vh;
+    line-height: 8vh;
+    width:100vw;
+    background: rgb(245, 245, 245);
+}
+/* .bookTitle div{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 2vh;
+    width: 4px;
+    height: 4vh;
+    background-color: #2d78f4;
+} */
+.bookTitle span{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.bookList{
+    background: #fff;
+    color: #2d78f4;
+    width:50vw;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.bookList div{
+    width: 50vw;
+    padding: 10px;
+}
+.bookList div img{
+    width: 80%;
+}
+.bookList span{
+    width: 50vw;
+    display: block;
+}

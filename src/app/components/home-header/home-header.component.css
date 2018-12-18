@@ -1,0 +1,27 @@
+.home-header{
+    width: 100vw;
+    height: 8vh;
+    background-color: #2d78f4;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: #cccccc;
+    position: relative;
+    color: rgb(150, 150, 150);
+}
+.home-header input{
+    height: 5vh;
+    width: 80vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -40vw;
+    margin-top: -2.5vh;
+    outline: none;
+    border: none;
+    padding-left: 25px;
+}
+.home-header span{
+    position: absolute;
+    left: 11vw;
+    top: 3vh;
+}

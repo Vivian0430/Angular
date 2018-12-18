@@ -1,0 +1,39 @@
+<div class="page-body">
+  <div class="detailHeader">
+    <span onclick="history.back()" class="glyphicon glyphicon-menu-left"></span>
+    <span>图书详情</span>
+  </div>
+  <div class="page-content">
+      <div class="detailImage">
+      <img [src]="detail.image"> 
+      </div>
+      <div class="detailTitle">
+       <span>{{detail.name}}</span>
+      </div>
+       <p>
+         <span>作者姓名：</span> 
+         <span>{{detail.author}}</span>
+      </p>
+      <p>
+          <span>出版社：</span> 
+          <span>{{detail.publisher.name}}</span>
+       </p>
+       <p>
+          <span>出版时间：</span> 
+          <span>{{detail.category.name}}</span>
+       </p>
+       <p>
+          <span>价格：</span> 
+          <span>{{detail.price | currency:'￥' }}</span>
+       </p>
+  </div>
+</div>
+<div class="detailFooter">
+  <div>
+    <span class="glyphicon glyphicon-shopping-cart"></span>
+    <span>购物车</span> 
+  </div>
+  <div>
+    <span>加入购物车</span>
+  </div>
+</div>

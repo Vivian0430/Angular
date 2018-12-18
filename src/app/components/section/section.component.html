@@ -1,0 +1,10 @@
+<div class="section" *ngFor="let item of book">
+    <div class="bookTitle">
+        <!-- <div></div> -->
+        <span>{{item.name}}</span>
+    </div>
+    <div class="bookList" *ngFor="let items of item.items">
+        <div><img [src]=items.image [routerLink]="[ '/detail']" [queryParams]="{id:items.id}"></div> 
+        <span>{{items.name}}</span>
+    </div>
+</div>

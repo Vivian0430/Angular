@@ -1,0 +1,109 @@
+<div class="page-body">
+    <div class="loginHeader">
+        <span onclick="history.back()" class="glyphicon glyphicon-menu-left"></span>
+        <span>用户登录</span>
+      </div>
+    <div class="page-content">
+          <form #frm="ngForm" (submit)="submitForm(frm)">
+              <div class="form-group">
+              <input type="text" autocomplete="off" [(ngModel)]="txtphone" name="user" ngModel #user="ngModel" required pattern="1[35789]\d{9}" class="form-control" placeholder="请输入手机号">
+              <div *ngIf="user.hasError('required')&&user.touched" class="danger">手机号不能为空</div>
+              <div *ngIf="user.hasError('pattern')" class="danger">手机号格式错误</div> 
+              </div> 
+              <div class="form-group">
+              <input type="password" autocomplete="off" [(ngModel)]="txtpassword" name="password" ngModel #password="ngModel" required pattern="\d{6}" class="form-control" placeholder="请输入密码">
+              <div [hidden]="!password.hasError('required')  || !password.touched" class="danger">密码不能为空</div>
+              <div [hidden]="!password.hasError('pattern')" class="danger">密码必须为6位数字</div> 
+              </div>
+              <button class="login-btn" [disabled]="frm.invalid" (click)="login()">登录</button>
+            </form>
+            <div class="tips">
+              <span>忘记密码？</span>
+              <span>立即注册</span>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            |、、
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
